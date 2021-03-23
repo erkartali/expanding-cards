@@ -9,9 +9,53 @@ body {
   display: flex;
   font-family: "Hind Siliguri", sans-serif;
   margin: 0;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
   overflow: hidden;
+}
+
+.card {
+  margin: 0.25em;
+  border: 1px solid black;
+  height: 25em;
+  border-radius: 25px;
+  width: 10%;
+  transition: all 0.5s ease;
+
+  background-position: center;
+}
+
+.active {
+  width: 50%;
+  transition: all 0.5s ease;
+}
+
+#woods {
+  background-image: url("./images/woods.jpeg");
+}
+#meadow {
+  background-image: url("./images/meadow.jpg");
+}
+#desert {
+  background-image: url("./images/desert.jpg");
+}
+#ocean {
+  background-image: url("./images/ocean.jpg");
+}
+#river {
+  background-image: url("./images/river.jpg");
+}
+
+h4 {
+  display: none;
+  color: white;
+  margin: 5em 3em 0 3em;
+}
+
+.spacing {
+  color: white;
+  margin: 5em 3em 0 3em;
+  transition: all 0.5s ease;
 }
